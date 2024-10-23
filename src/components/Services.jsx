@@ -90,7 +90,7 @@ const Services = () => {
                       key={index}
                       className={`flex items-center justify-center rounded-2xl ${
                         index === 2
-                          ? "h-[3rem] w-[3rem] bg-conic-gradient p-0.25 md:h-[4.5rem] md:w-[4.5rem]"
+                          ? "h-[3rem] w-[3rem] animate-pulse bg-conic-gradient p-0.25 md:h-[4.5rem] md:w-[4.5rem]"
                           : "flex h-10 w-10 bg-n-6 md:h-15 md:w-15"
                       }`}
                     >

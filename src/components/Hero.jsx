@@ -28,7 +28,7 @@ const Hero = () => {
               AssencoAI{" "}
               <img
                 src={curve}
-                className="absolute left-0 top-full w-full xl:-mt-2"
+                className="absolute left-0 top-full w-full animate-pulse xl:-mt-2"
                 width={624}
                 height={28}
                 alt="Curve"

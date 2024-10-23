@@ -11,7 +11,7 @@ const Pricing = () => {
         <div className="relative mb-[6.5rem] hidden justify-center lg:flex">
           <img
             src={smallSphere}
-            className="relative z-1"
+            className="relative z-1 animate-pulse"
             width={255}
             height={255}
             alt="Sphere"

@@ -8,8 +8,12 @@ const Generating = ({ className }) => {
         className || ""
       } text-base`}
     >
-      <img className="mr-4 h-5 w-5" src={loading} alt="Loading" />
-      AI is generating
+      <img
+        className={`mr-4 h-5 w-5 animate-spin`}
+        src={loading}
+        alt="Loading"
+      />
+      <p className="animate-pulse">AI is generating</p>
     </div>
   );
 };
